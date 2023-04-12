@@ -19,8 +19,8 @@
   aparece o botão que irá notificar o email ali digitado. Para isso usei o JavaScript, onde tambem fiz um pequeno tratamento de erro caso o usuario digite
   o email de forma incorreta.
     
-<br>
-  <br>
+
+  <br><br>
  <h2> Tecnologias usadas </h2>
 
  - Html5 
@@ -28,9 +28,6 @@
  - Java Script
  
 
-
-	<br>
-  <br>
 	
 	<div align="center"><h1><a href="https://mayconcabral077.github.io/Valida-o-de-email/"> Acesse o projeto aqui</a></h1></div>
 
