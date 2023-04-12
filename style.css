@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+header{
+    margin: 4rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+main article:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.8rem;
+}
+
+h1 { 
+    font-size: 2.5em; 
+    font-weight: 300; 
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;  
+    color: hsl(0, 0%, 59%);
+}
+
+h1 strong { 
+    color: black; 
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 2rem; 
+}
+
+input:nth-child(1) {
+    padding: 0.8rem 1.6rem;
+    border: 1px solid hsl(223, 100%, 88%);
+    border-radius: 50px;
+    width: 22rem;
+    margin-bottom: .3rem; 
+    font-size: .8em;
+    outline: none;
+}
+
+button{
+    margin-left: .8rem;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.322);
+    padding: 1rem 3rem;
+    cursor: pointer;
+    background-color: hsl(223, 87%, 63%);
+    font-weight: 600;
+    color: aqua;
+    transition: all .3s ease-in;
+}
+
+button:hover {
+    background-color: hsla(223, 87%, 63%, 0.904);
+    transition: all .2s ease-in;
+}
+
+.msg-erro-email { 
+    display: none; 
+    color: hsl(354, 100%, 66%);
+    font-size: .7rem;
+    margin-left: 1rem;
+    font-style: italic;
+}
+
+.h-dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 25vh;
+}
+
+.box-icons {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 10vh;
+    gap: 1rem;
+}
+
+.icons {
+    width: 15px;
+    cursor: pointer;
+}
+
+.f-icon { 
+    width: 9px;
+}
+
+footer span {
+    font-size: 1em ;
+    font-weight: 300;
+}
+
+
+@media(max-width:540px){
+
+    header {
+        margin: 1.6rem 0;
+    }
+  
+    h1 { 
+        font-size: 1.5em;
+    }
+
+    form {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    input:nth-child(1) { 
+        width: 18rem; 
+    }
+    
+    .msg-erro-email { 
+        margin-bottom: 1rem; 
+    }
+
+    button { 
+        width: 18rem;  
+        margin-top: .5rem;
+        margin-left: 0;
+    }
+
+    .dashboard {
+        max-width: 70%;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer { 
+        height: 22vh; 
+    }
+    
+    .box-icons { 
+        gap: 1.2rem;
+        height: 11vh;
+    }
+    
+    .icons {
+         width: 16px; 
+        }
+    
+    .f-icon { 
+        width: 10px;
+    }
+    
+    footer span {
+        font-size: .8em;
+        color: hsl(0, 0%, 59%) ;
+    }
+    
+}

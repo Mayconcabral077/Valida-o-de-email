@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Ping coming soon page</title>
+</head>
+<body>
+<header>
+  <img src="images/logo.svg" alt="">
+</header>
+
+<main>
+    <article>
+        <h1> We are launching <strong>soon!</strong> </h1>
+        <span> Subscribe and get notified </span>
+    </article>
+
+    <form>
+        <label for="">
+            <input  onkeyup="check()" type="email" name="email" id="email" placeholder="Your email address">
+            <div class="msg-erro-email">Please provide a valid email address</div>
+        </label>
+      
+           <button type="submit">Notify Me</button>
+    </form>
+    
+    <article class="h-dashboard">
+      <img src="images/illustration-dashboard.png" alt="" class="dashboard">
+    </article>
+</main>
+ 
+<footer>
+    <div class="box-icons">
+       <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><img src="images/facebook-f.svg" alt="icon-facebook" class="icons f-icon"></a> 
+       <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D" target="_blank"><img src="images/twitter.svg" alt="icon-twitter" class="icons"></a> 
+        <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.svg" alt="icon-instagram" class="icons"></a>
+    </div>
+    <span> &copy; Copyright Ping. All rights reserved. </span>
+</footer>
+  
+<script src="app.js"></script>
+</body>
+</html>
